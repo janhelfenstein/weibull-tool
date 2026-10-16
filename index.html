@@ -1,0 +1,59 @@
+# index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weibull Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+
+<body>
+
+<h1>Weibull Calculator</h1>
+
+<div class="controls">
+
+    <label>
+        t0:
+        <span id="t0Value">19772</span>
+    </label>
+
+    <input type="range"
+           id="t0"
+           min="10000"
+           max="25000"
+           value="19772">
+
+    <label>
+        b:
+        <span id="bValue">6.214</span>
+    </label>
+
+    <input type="range"
+           id="b"
+           min="1"
+           max="20"
+           step="0.1"
+           value="6.214">
+
+    <label>
+        T:
+        <span id="TValue">20069</span>
+    </label>
+
+    <input type="range"
+           id="T"
+           min="18000"
+           max="30000"
+           value="20069">
+
+</div>
+
+<div id="plot"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

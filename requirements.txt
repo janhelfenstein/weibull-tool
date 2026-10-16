@@ -1,0 +1,45 @@
+#requirements.txt by HelfJa 2026-10-15
+
+# Numerical computing
+numpy
+scipy
+
+# Data analysis
+pandas
+
+# Plotting
+matplotlib
+seaborn
+
+# Jupyter notebooks
+jupyter
+ipykernel
+
+# Excel support
+openpyxl
+xlsxwriter
+
+# Progress bars
+tqdm
+
+# HTTP requests / APIs
+requests
+
+# Configuration files
+pyyaml
+
+# Statistical functions
+statsmodels
+
+# Interactive plotting
+plotly
+
+# Testing
+pytest
+
+# create exe from python script
+pyinstaller
+
+# others
+lifelines
+black
