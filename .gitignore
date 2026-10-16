@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+
+# PyInstaller build output
+build/
+dist/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings (optional)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
